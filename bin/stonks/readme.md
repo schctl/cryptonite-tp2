@@ -57,7 +57,7 @@ stack = b""
 for int32 in out.decode().split('-'):
     stack += p32(int(int32, 16))
 
-print(stack.decode(encoding="ascii",))
+print(stack.decode(encoding="ascii", errors="replace"))
 ```
 
 Here's the output after running the script
