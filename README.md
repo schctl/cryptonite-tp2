@@ -15,5 +15,7 @@ Writeups for Cryptonite Task Phase 2.
   - [forbidden paths](./web/forbidden-paths/readme.md)
   - [local authority](./web/local-authority/readme.md)
 - Forensics
-  - [tunnel vision](./forensics/tunnel_vision/readme.md)
-  - [macrohard weakedge](./forensics/mh_we/readme.md)
+  - [tunn3l v1s10n](./forensics/tunnel_vision/readme.md)
+  - [MacroHard WeakEdge](./forensics/mh_we/readme.md)
+- Cryptography
+  - [miniRSA](./crypto/minirsa/readme.md)
