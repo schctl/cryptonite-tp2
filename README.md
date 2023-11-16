@@ -19,3 +19,5 @@ Writeups for Cryptonite Task Phase 2.
   - [MacroHard WeakEdge](./forensics/mh_we/readme.md)
 - Cryptography
   - [miniRSA](./crypto/minirsa/readme.md)
+  - [basic-mod1](./crypto/basic-mod1/readme.md)
+  - [basic-mod2](./crypto/basic-mod2/readme.md)
