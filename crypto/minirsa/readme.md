@@ -16,4 +16,24 @@ We can essentially see that
 
 Which means if `m ^ e < n`, the remainder is just `m ^ e`, which means `m = c ^ (1/e)`.
 
-Calculating an accurate cube root and converting it into ASCII, we get our flag: `????????`
+I wrote this Rust program to calculate the 3rd root of `c`.
+
+```rust
+use num::bigint::BigUint;
+
+fn main() {
+    let big_num = b"...";
+
+    let big_num = BigUint::parse_bytes(big_num, 10).unwrap();
+
+    println!("{:x}", big_num.nth_root(3));
+}
+```
+
+And threw it into Python.
+
+```py
+bytearray.fromhex("...")
+```
+
+Which gave me my flag `picoCTF{n33d_a_lArg3r_e_d0cd6eae}`.
