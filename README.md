@@ -12,6 +12,7 @@ Writeups for Cryptonite Task Phase 2.
     - [babygame01](./picoctf/bin/babygame01/readme.md)
     - [buffer overflow 0](./picoctf/bin/buffer-overflow-0/readme.md)
     - [Cache Me Outside 🚧](./picoctf/bin/cache-me-outside/readme.md)
+    - [basic-file-exploit](./picoctf/bin/base-file-exploit/readme.md)
   - Web Exploitation
     - [caas](./picoctf/web/caas/readme.md)
     - [forbidden paths](./picoctf/web/forbidden-paths/readme.md)
